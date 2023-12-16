@@ -18,14 +18,23 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
-.footer {
+.greybg {
   background-color: #252630;
+}
+
+.links-div {
+  border-top-left-radius: 1.25rem  ;
+  border-top-right-radius: 0.25rem  ;
+  border-bottom-left-radius: 0.25rem  ;
+  border-bottom-right-radius: 1.25rem  ;
+  background-color: #252630;
+}
+
+.mainbg{
+  background-color: #191920;
 }
